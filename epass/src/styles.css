@@ -1,0 +1,96 @@
+/* You can add global styles to this file, and also import other style files */
+html>body {
+    font-family: 'Roboto','Helvetica','Arial',sans-serif!important;
+    background-color: #FAFAFA;
+}
+
+.dropdownlistdiv{
+
+    Width:88%;
+    
+    background-color: #fff;;
+    border: 1px solid #ddd;
+    position: absolute;
+    z-index: 1;
+    
+    margin-top: 2px;
+}
+.dropdowndiv{
+    padding: 8px;
+    
+    border-bottom: 1px solid #ddd;
+    font-size: 13px;
+    font-weight: 500;
+    color: #666;
+    text-transform: uppercase;
+    transition: 0.5s all;
+    cursor: pointer;
+}
+.dropdownscroll{
+    max-height: 200px;
+    overflow: auto;
+    overflow-x: hidden;
+}
+.dropdowndiv:hover{
+    background-color:#829cb724;
+    border-left:2px solid #54779a;
+}
+p{
+    margin:0 !important;
+}
+.customrow{
+    margin:0;
+}
+.flashit{
+    -webkit-animation: flash linear 1s infinite;
+    animation: flash linear 1s infinite;
+}
+@-webkit-keyframes flash {
+  0% { opacity: 1; } 
+  50% { opacity: .1; } 
+  100% { opacity: 1; }
+}
+@keyframes flash {
+  0% { opacity: 1; } 
+  50% { opacity: .1; } 
+  100% { opacity: 1; }
+}
+/* Pulse class and keyframe animation */
+.pulseit{
+  -webkit-animation: pulse linear .5s infinite;
+  animation: pulse linear .5s infinite;
+  color:red;
+}
+@-webkit-keyframes pulse {
+  0% { width:200px; } 
+  50% { width:340px; } 
+  100% { width:200px; }
+}
+@keyframes pulse {
+  0% { width:200px; } 
+  50% { width:340px; } 
+  100% { width:200px; }
+}
+.mdl-button,button{
+    color: #fff;
+}
+input[readonly] {
+    background-color: #fff !important;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+    height:5px;
+}
+
+
+::-webkit-scrollbar-track {
+    box-shadow: none; 
+    border-radius: 0px;
+}
+ 
+
+::-webkit-scrollbar-thumb {
+    background: #283339; 
+    border-radius: 10px;
+}
